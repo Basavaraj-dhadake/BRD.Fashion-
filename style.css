@@ -10,7 +10,7 @@
     color: white;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
   
 
   
@@ -356,7 +356,8 @@ body{
 .box2{
      height: 370px;
        width: 250px;
-        background-image: url("https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/dd7d1daKP-5034OR_1.jpg?rnd=20200526195200&tr=w-512");
+       background-image: url("treand4.jpg");
+      
           background-size: cover;
 }
 .box2 p{
@@ -368,7 +369,7 @@ body{
 .box3{
      height: 370px;
        width: 250px;
-      background-image: url("treand4.jpg");
+       background-image: url("treand5.jpg");
         background-size: cover;
 }
 .box3 p{
@@ -380,7 +381,8 @@ body{
 .box4{
      height: 370px;
        width: 250px;
-         background-image: url("treand5.jpg");
+        background-image: url("https://adn-static1.nykaa.com/nykdesignstudio-images/pub/media/catalog/product/d/d/dd7d1daKP-5034OR_1.jpg?rnd=20200526195200&tr=w-512");
+         
            background-size: cover;
 
 }
@@ -930,6 +932,49 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     height: 280px;
     width: 250px;
 }
+.mens5box1{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.mens5box1 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.mens5box2{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.mens5box2 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.mens5box3{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.mens5box3 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.mens5box4{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.mens5box4 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
 /* womens */
 .womens_wrapper1{
     height: 1400px;
@@ -1020,6 +1065,21 @@ border: none;
     width: 100%;
    
 }
+
+/* .womens1box1btns{
+     padding: 10px;
+  text-align: right;
+}
+
+.womens1box1btn{
+   
+ background-color: #00bcd4;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+} */
 .womens_innerbox22{
     display: flex;
     justify-content: space-evenly;
@@ -1208,6 +1268,49 @@ body.womensbody{
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
 }
 .womens4box4 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+.womens5box1{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.womens5box1 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.womens5box2{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.womens5box2 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.womens5box3{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.womens5box3 img{
+    background-size: cover;
+    height: 280px;
+    width: 250px;
+}
+
+.womens5box4{
+    background-color: #f8f2f6;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
+}
+.womens5box4 img{
     background-size: cover;
     height: 280px;
     width: 250px;
@@ -1743,3 +1846,846 @@ button:hover {
 backdrop-filter: blur(10px);
     
 }
+ .backprofile{
+    font-size: 20px;
+    color: #0a0308;
+   
+    
+    justify-content: right;
+    text-align: right;
+  }
+  .backprofile i:hover{
+    border: 2px solid black;
+    
+  }
+
+
+
+    .womens1box1btn{
+            background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+   .womens1box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+   .womens1box3btn{
+            background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+   .womens1box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+.womens1box5btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box1btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box3btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box1btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box3btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens2box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+   
+    .womens3box1btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens3box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens3box3btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens3box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+   
+    .womens4box1btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens4box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens4box3btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens4box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+   
+    
+    .womens5box1btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens5box2btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens5box3btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+
+    .womens5box4btn{
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+/* .mens1box1btn {
+        background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+    }
+  /* .mens1box1 h2 {
+        line-height: 1.2;
+    } */
+.mens1box1btn {
+     background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+        padding-top: 20px;
+        line-height: 2px;
+        
+
+}
+.mens1box1 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens1box1 .mens1box1btn {
+  margin: 0;
+}
+.mens1box2 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens1box2 .mens1box2btn {
+  margin: 0;
+}
+.mens1box2btn {
+     background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+        padding-top: 20px;
+        line-height: 2px;
+        
+
+}
+.mens1box3 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens1box3 .mens1box3btn {
+  margin: 0;
+}
+.mens1box3btn {
+     background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+        padding-top: 20px;
+        line-height: 2px;
+}
+
+
+
+.mens1box4btn {
+     background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+        padding-top: 20px;
+        line-height: 2px;
+        
+
+}
+.mens1box4 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens1box4 .mens1box4btn {
+  margin: 0;
+}
+.mens2box1 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens2box1 .mens2box1btn {
+  margin: 0;
+}
+.mens2box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+.mens2box2 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens2box2 .mens2box2btn {
+  margin: 0;
+}
+.mens2box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens2box3 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens2box3 .mens2box3btn {
+  margin: 0;
+}
+.mens2box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens2box4 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens2box4 .mens2box4btn {
+  margin: 0;
+}
+.mens2box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens3box1 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens3box1 .mens3box1btn {
+  margin: 0;
+}
+.mens3box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+.mens3box2 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens3box2 .mens3box2btn {
+  margin: 0;
+}
+.mens3box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens3box3 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens3box3 .mens3box3btn {
+  margin: 0;
+}
+.mens3box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens3box4 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens3box4 .mens3box4btn {
+  margin: 0;
+}
+.mens3box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens4box1 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens4box1 .mens4box1btn {
+  margin: 0;
+}
+.mens4box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+.mens4box2 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens4box2 .mens4box2btn {
+  margin: 0;
+}
+.mens4box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens4box3 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens4box3 .mens4box3btn {
+  margin: 0;
+}
+.mens4box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens4box4 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens4box4 .mens4box4btn {
+  margin: 0;
+}
+.mens4box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens5box1 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens5box1 .mens5box1btn {
+  margin: 0;
+}
+.mens5box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+.mens5box2 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens5box2 .mens5box2btn {
+  margin: 0;
+}
+.mens5box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens5box3 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens5box3 .mens5box3btn {
+  margin: 0;
+}
+.mens5box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.mens5box4 h2 {
+            
+  display: flex;           
+  justify-content: space-between; 
+  align-items: center;    
+  padding: 0;
+    
+}
+
+.mens5box4 .mens5box4btn {
+  margin: 0;
+}
+.mens5box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+}
+
+.kids1box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids1box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids1box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids1box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids1box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids1box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids2box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids2box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids2box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids2box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids3box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids3box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids3box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids3box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids4box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids4box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids4box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids4box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids5box1btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids5box2btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids5box3btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+.kids5box4btn{
+    background-color: #e6af23;
+        justify-content: space-evenly;
+        height: 30px;
+        text-align: center;
+        margin-left: 50px;
+
+}
+body.wishlist{
+    background-color: white;
+    text-align: center;
+}
+.wishlist p{
+    font-size: 30px;
+}
+
