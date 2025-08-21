@@ -2,25 +2,29 @@
     margin: 0;
     font-family:Arial;
     border: border-box;
+   
 
 }
 .navbar{
     height: 100px;
     background-color: #d3a3c5;
     color: white;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    
 
   
 }
 body{
     background-color: #c5c5d5;
+  
 }
 .nav-logo{
     height: 100px;
     width: 100px;
+   
 }
 .logo{
     background-image: url("logo1.png");
@@ -34,9 +38,9 @@ body{
 .border{
     border: 1.2rem solid transparent;
 }
-.border:hover {
+/* .border:hover {
     border:  solid rgb(3, 16, 8)
-}
+} */
 .nav-search{
     display: flex;
     background-color: #fedb6f;
@@ -184,7 +188,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-   
+
+  
   
 
 }
@@ -524,7 +529,7 @@ ul a{
 
 }
 
-    body.loginbody {
+    .loginbody {
       margin: 0;
       font-family: Arial, sans-serif;
      
@@ -533,18 +538,43 @@ ul a{
       align-items: center;
       height: 100vh;
       background-color: #ccb9c6;
-      background-image: url("login2.jpg");
+      background: linear-gradient(to right,blue,white);
       background-size: cover;
-  
+      
     }
-.wrappers{
-      background-image:url("login2.jpg");
+    .loginbody1{
+      width: 900px;
+    }
+    .loginbody1 h1{
+        font-size: 80px;
+        font-weight: bold;
+        color: color-mix(in srgb,pink 20%, rgb(247, 246, 246) 90%);
+        text-shadow: 5px 0.5px #0a0308;
+    }
+    .loginbody1 h3 {
+         color: color-mix(in srgb,rgb(247, 247, 247) 90%,rgb(0, 0, 0) 20%);
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    .loginbody1 a{
+        font-size: 40px;
+        font-weight: lighter;
+        color: color-mix(in srgb,rgb(247, 247, 247) 90%,rgb(0, 0, 0) 20%);
+        font-size: 40px;
+    }
+    
+
+    .wrappers{
+        background: transparent;
+    /* background:linear-gradient(to left,rgb(167, 167, 234),white,rgb(228, 145, 145)); */
       padding: 30px;
       border-radius: 10px;
-      box-shadow: rgb(23, 23, 23);
+       box-shadow: 4px 4px 20px 20px rgba(0, 0, 0, 0.3);
       width: 300px;
       position: relative;
          background-size: cover;
+         border: 2px solid rgb(36, 34, 34);
+         
     }
 
     .icon-close {
@@ -572,6 +602,7 @@ ul a{
    
     
     }
+    
 
     .input-box input {
       width: 90%;
@@ -613,8 +644,8 @@ ul a{
     .btn {
       width: 100%;
       padding: 10px;
-      background: #4CAF50;
-      color: white;
+      background:linear-gradient(to left,rgb(246, 68, 175),rgb(110, 31, 200));
+   
       border: none;
       border-radius: 5px;
       cursor: pointer;
@@ -655,29 +686,122 @@ ul a{
     width: 300px;
     border: none;
     border-radius: 0.4rem;
-    background-color: #c4dbe6;
+    background-color: white;
     margin-top: 10px;
 
     margin-left: 5px;
 }
+
 .mens_wrapper1 h4{
     color: #313331;
   margin: 25px;
 
 }
+
+.mens_wrapper1 .size-container,
+ .brand-container,.color-container{
+   
+  position: relative;
+  display: inline-block;
+  /* font-family: Arial, sans-serif; */
+  justify-content: center;
+  text-align: center;
+  margin: 25px; 
+  font-weight: bold;
+  font-size: 18px;
+
+
+}
+.mens_wrapper1 .size-container:hover,
+.color-container:hover,
+ .brand-container:hover{
+    text-decoration: underline;
+    
+    
+}
+.womens_wrapper1 .size-container,
+ .brand-container,.color-container{
+   
+  position: relative;
+  display: inline-block;
+  /* font-family: Arial, sans-serif; */
+  justify-content: center;
+  text-align: center;
+  margin: 25px; 
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.womens_wrapper1 .size-container:hover,
+.color-container:hover,
+ .brand-container:hover{
+    text-decoration: underline;
+    
+    
+}
+.womens_wrapper1 h4{
+    color: #313331;
+  margin: 25px;
+
+}
+.size-options ,
+.color-option,
+.brand-option {
+  display: none;
+  /* position: absolute; */
+  top: 100%;
+  left: 0;
+  background: transparent;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.size-options span:hover ,
+.color-option span:hover ,
+.brand-option span:hover {
+  background-color: rgb(188, 186, 186);
+  
+  
+
+}
+
+.size-container:hover .size-options{
+    display: block;
+}
+.brand-container:hover .brand-option,.color-container:hover .color-option {
+  display: block;
+  background-color: white;
+  
+
+} 
+
+
 .mens_wrapper1 h4:hover{
     text-decoration: underline;
     color: #d35cb1;
 
 }
+.prize:hover{
+    border: 2px solid black;
+    height: 30px;
+    width: 200px;
 
+}
+#prz{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+}
 .mens_innerbox1{
     height: 370px;
    
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    background-color: white;
+    width: 1320px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -693,7 +817,8 @@ ul a{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+ background-color: white;
+    width: 1320px;
     display: flex;
     justify-content: space-evenly;
 
@@ -704,7 +829,8 @@ ul a{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+   background-color: white;
+   width: 1320px;
 }
 .mens_innerbox4{
     height: 370px;
@@ -712,7 +838,8 @@ ul a{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+  background-color: white;
+   width: 1320px;
 }
 .mens_innerbox5{
     height: 370px;
@@ -720,7 +847,8 @@ ul a{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    background-color: white;
+  width: 1320px;
     display: flex;
 }
 .mens_boxe11{
@@ -757,6 +885,133 @@ body.mensbody{
     border-radius: 0.4rem;
      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8); /* Dark shadow */
 }
+.mens1box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.mens1box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens1box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens1box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens2box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.mens2box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens2box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens2box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens3box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.mens3box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens3box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens3box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens4box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.mens4box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens4box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens4box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens5box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.mens5box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.mens5box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.mens5box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
 .mens1box1 img{
     background-size: cover;
     height: 280px;
@@ -981,7 +1236,7 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     width: 300px;
     border: none;
     border-radius: 0.4rem;
-    background-color: #c4dbe6;
+    background-color: white;
     margin-top: 10px;
 
     margin-left: 5px;
@@ -995,14 +1250,44 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     text-decoration: underline;
     color: #d35cb1;
 }
-
+.womens_wrapper3{
+    margin-top: 12px;
+    height: 150px;
+    background-color: white;
+    font-size: 13px;
+    color: rgb(63, 60, 60);
+}
+.womens_wrapper3 a {
+    font-size: 10px;
+}
+.mens_wrapper3{
+    margin-top: 12px;
+    height: 150px;
+    background-color: white;
+    font-size: 13px;
+    color: rgb(63, 60, 60);
+}
+.mens_wrapper3 a {
+    font-size: 10px;
+}
+.kids_wrapper3{
+    margin-top: 12px;
+    height: 150px;
+    background-color: white;
+    font-size: 13px;
+    color: rgb(63, 60, 60);
+}
+.kids_wrapper3 a {
+    font-size: 10px;
+}
 .womens_innerbox1{
     height: 370px;
+    background: white;
    
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    width: 1320px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -1014,24 +1299,24 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
    
 }
 .womens_innerbox2{
-   
+   background-color: white;
     height: 370px;
    
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    width: 1320px;
     display: flex;
     justify-content: space-evenly;
 
 }
 .womens_innerbox3{
     height: 370px;
-  
+  background-color: white;
+  width: 1320px;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
 }
 .womens_innerbox4{
     height: 370px;
@@ -1039,7 +1324,8 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    background-color: white;
+  width: 1320px;
 }
 .womens_innerbox5{
     height: 370px;
@@ -1047,7 +1333,8 @@ box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+  background-color: white;
+  width: 1320px;
     display: flex;
 }
 .womens_boxe11{
@@ -1065,21 +1352,6 @@ border: none;
     width: 100%;
    
 }
-
-/* .womens1box1btns{
-     padding: 10px;
-  text-align: right;
-}
-
-.womens1box1btn{
-   
- background-color: #00bcd4;
-  color: white;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 6px;
-  cursor: pointer;
-} */
 .womens_innerbox22{
     display: flex;
     justify-content: space-evenly;
@@ -1105,6 +1377,135 @@ body.womensbody{
     width: 250px;
 
 }
+.womens1box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.womens1box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens1box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens1box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens2box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.womens2box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens2box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens2box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens3box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.womens3box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens3box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens3box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens4box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.womens4box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens4box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens4box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens5box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.womens5box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.womens5box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.womens5box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+
+
 
 .womens1box2{
     background-color: #f8f2f6;
@@ -1336,13 +1737,14 @@ body.womensbody{
  .mens_header2{
     display: flex;
     justify-content: space-evenly;
- 
+
+    background-color: white;
 
  }
  .womens_header2{
       display: flex;
     justify-content: space-evenly;
-   background-color: #a3a4b8;
+   background-color: white;
    border: none;
  
 
@@ -1444,16 +1846,37 @@ body.womensbody{
     width: 300px;
     border: none;
     border-radius: 0.4rem;
-    background-color: #c4dbe6;
+    background-color: white;
     margin-top: 10px;
 
     margin-left: 5px;
+}
+.kids_wrapper1 .size-container,
+ .brand-container,.color-container{
+   
+  position: relative;
+  display: inline-block;
+  /* font-family: Arial, sans-serif; */
+  justify-content: center;
+  text-align: center;
+  margin: 25px; 
+  font-weight: bold;
+  font-size: 18px;
+
+}
+.kids_wrapper1 .size-container:hover,
+.color-container:hover,
+ .brand-container:hover{
+    text-decoration: underline;
+    
+    
 }
 .kids_wrapper1 h4{
     color: #313331;
   margin: 25px;
 
 }
+
 .kids_wrapper1 h4:hover{
     text-decoration: underline;
     color: #d35cb1;
@@ -1465,7 +1888,8 @@ body.womensbody{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+width: 1320px;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
 }
@@ -1475,7 +1899,7 @@ body.womensbody{
 .kids_header2{
      display: flex;
     justify-content: space-evenly;
-   background-color: #a3a4b8;
+   background-color: white;
    border: none;
  
    
@@ -1487,7 +1911,8 @@ body.womensbody{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+    width: 1320px;
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
 
@@ -1498,7 +1923,8 @@ body.womensbody{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+width: 1320px;
+    background-color: white;
 }
 .kids_innerbox4{
     height: 370px;
@@ -1506,7 +1932,8 @@ body.womensbody{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+   width: 1320px;
+    background-color: white;
 }
 .kids_innerbox5{
     height: 370px;
@@ -1514,7 +1941,8 @@ body.womensbody{
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 20px;
-    width: 1100px;
+   width: 1320px;
+    background-color: white;
     display: flex;
 }
 .kids_boxe11{
@@ -1551,6 +1979,133 @@ body.kidsbody{
     border-radius: 0.4rem;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.8);
 }
+.kids1box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.kids1box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids1box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids1box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids2box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.kids2box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids2box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids2box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids3box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.kids3box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids3box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids3box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids4box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.kids4box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids4box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids4box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids5box1 img:hover{
+    background-size: cover;
+    height: 300px;
+    width:280px;
+  
+}
+.kids5box3 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+.kids5box4 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
+.kids5box2 img:hover{
+    background-size: cover;
+    height: 300px;
+    width: 280px;
+
+}
+
 .kids1box1 img{
     background-size: cover;
     height: 280px;
@@ -1773,16 +2328,18 @@ body.kidsbody{
 /* Profile */
 body.profile {
   font-family: Arial, sans-serif;
-  background: #f2f2f2;
+
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color:linear-gradient(135deg, #e0f7fa, #ffffff) #f0f4f8;
+  
 }
-
+body .profile{
+    background: linear-gradient(left,black);
+}
 .profile-card {
-  background: white;
+  background: rgb(187, 34, 34);
   width: 800px;
   padding: 30px;
   border-radius: 15px;
@@ -1790,7 +2347,7 @@ body.profile {
   text-align: center;
   height: 500px;
   padding: 50px;
-  background-color: #e0f7fa;
+  background:linear-gradient(to bottom,rgb(147, 147, 221),white);
 }
 
 .profile-img {
@@ -1821,18 +2378,21 @@ h1 {
   text-decoration: none;
   font-weight: bold;
   margin-top: 10px;
+  margin: 20px;
 }
 .socials a:hover{
     text-decoration: underline;
 }
 
-button {
-  margin-top: 15px;
-  background-color: #00bcd4;
+#contact {
+  margin-top: 45px;
+  background:linear-gradient(to left,rgb(221, 116, 133),red,blue);
   color: white;
   border: none;
   padding: 10px 20px;
   border-radius: 8px;
+  width: 170px;
+  height: 50px;
   cursor: pointer;
   transition: background 0.3s ease;
 }
@@ -1867,6 +2427,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+        border-radius: 0.5rem;
+        width: 50px;
 
     }
    .womens1box2btn{
@@ -1875,6 +2437,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
    .womens1box3btn{
@@ -1883,6 +2447,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
    .womens1box4btn{
@@ -1890,6 +2456,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -1899,6 +2467,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
 
@@ -1907,12 +2477,16 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
 
     .womens2box2btn{
         background-color: #e6af23;
+         border-radius: 0.5rem;
+        width: 50px;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
@@ -1924,6 +2498,8 @@ backdrop-filter: blur(10px);
         background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
+         border-radius: 0.5rem;
+        width: 50px;
         text-align: center;
         margin-left: 50px;
 
@@ -1934,6 +2510,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -1944,6 +2522,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
 
@@ -1953,7 +2533,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
-
+ border-radius: 0.5rem;
+        width: 50px;
     }
 
     .womens2box3btn{
@@ -1961,6 +2542,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -1970,6 +2553,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -1980,12 +2565,16 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
 
     .womens3box2btn{
         background-color: #e6af23;
+         border-radius: 0.5rem;
+        width: 50px;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
@@ -1995,6 +2584,8 @@ backdrop-filter: blur(10px);
 
     .womens3box3btn{
         background-color: #e6af23;
+         border-radius: 0.5rem;
+        width: 50px;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
@@ -2006,6 +2597,8 @@ backdrop-filter: blur(10px);
         background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
+         border-radius: 0.5rem;
+        width: 50px;
         text-align: center;
         margin-left: 50px;
 
@@ -2017,6 +2610,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -2026,6 +2621,8 @@ backdrop-filter: blur(10px);
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
+         border-radius: 0.5rem;
+        width: 50px;
         margin-left: 50px;
 
     }
@@ -2036,6 +2633,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
 
@@ -2045,6 +2644,8 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
+         border-radius: 0.5rem;
+        width: 50px;
 
     }
 
@@ -2054,6 +2655,8 @@ backdrop-filter: blur(10px);
         background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
+         border-radius: 0.5rem;
+        width: 50px;
         text-align: center;
         margin-left: 50px;
 
@@ -2063,6 +2666,8 @@ backdrop-filter: blur(10px);
         background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
+         border-radius: 0.5rem;
+        width: 50px;
         text-align: center;
         margin-left: 50px;
 
@@ -2070,6 +2675,8 @@ backdrop-filter: blur(10px);
 
     .womens5box3btn{
         background-color: #e6af23;
+         border-radius: 0.5rem;
+        width: 50px;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
@@ -2079,6 +2686,8 @@ backdrop-filter: blur(10px);
 
     .womens5box4btn{
         background-color: #e6af23;
+         border-radius: 0.5rem;
+        width: 50px;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
@@ -2102,8 +2711,6 @@ backdrop-filter: blur(10px);
         height: 30px;
         text-align: center;
         margin-left: 50px;
-        padding-top: 20px;
-        line-height: 2px;
         
 
 }
@@ -2132,13 +2739,11 @@ backdrop-filter: blur(10px);
   margin: 0;
 }
 .mens1box2btn {
-     background-color: #e6af23;
+      background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
         margin-left: 50px;
-        padding-top: 20px;
-        line-height: 2px;
         
 
 }
@@ -2155,26 +2760,21 @@ backdrop-filter: blur(10px);
   margin: 0;
 }
 .mens1box3btn {
-     background-color: #e6af23;
+      background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
         margin-left: 50px;
-        padding-top: 20px;
-        line-height: 2px;
 }
 
 
 
 .mens1box4btn {
-     background-color: #e6af23;
+   background-color: #e6af23;
         justify-content: space-evenly;
         height: 30px;
         text-align: center;
         margin-left: 50px;
-        padding-top: 20px;
-        line-height: 2px;
-        
 
 }
 .mens1box4 h2 {
@@ -2689,3 +3289,5 @@ body.wishlist{
     font-size: 30px;
 }
 
+
+     

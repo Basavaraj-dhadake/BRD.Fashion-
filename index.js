@@ -75,16 +75,11 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 
-let btmmode=document.querySelector(".modes");
-let curentmode="light";
-btmmode.addEventListener("click",() =>{
-  if(curentmode==="light"){
-    curentmode="dark";
-    document.querySelector("body").style.backgroundColor="black";
-  }
-  else{
-    curentmode="light";
-     document.querySelector("body").style.backgroundColor="white";
-  }
 
+
+let regbtn = document.querySelectorAll(".regbtn");
+regbtn.addEventListener("click", () => {
+  window.location.href = "index.html";  
 });
+
+ 
